@@ -1,17 +1,19 @@
-# React + Vite
+# ✅ Todo Liste 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application de gestion de tâches.
 
-Currently, two official plugins are available:
+## 🔗 Démo live
+[Voir le projet en ligne](https://todo-liste-nu.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies utilisées
+- React 
+- Vite
+- Tailwind CSS
+- localStorage
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# todo-liste" 
+## 📚 Concepts React appris
+- useReducer pour gérer un état complexe avec plusieurs actions
+- localStorage pour persister les données entre les sessions
+- Fonction d'initialisation avec useReducer
+- Filtrage dynamique d'un tableau avec .filter()
+- Pattern dispatch / action / payload
